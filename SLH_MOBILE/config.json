@@ -1,0 +1,109 @@
+{
+  "vmix": {
+    "host": "127.0.0.1",
+    "port": 8088,
+    "protocol": "http",
+    "username": null,
+    "password": null
+  },
+  "scoreboard": {
+    "input": "SCOREBOARD UPPE",
+    "overlay_channel": 1,
+    "clock_field": "Time.Text",
+    "home_score_field": "HomeScore.Text",
+    "away_score_field": "AwayScore.Text",
+    "home_name_field": "HomeName.Text",
+    "away_name_field": "AwayName.Text",
+    "home_logo_field": "HomeLogo.Source",
+    "away_logo_field": "AwayLogo.Source",
+    "period_field": "PeriodNr.Text",
+    "home_empty_field": "EmptyGoalH.Text",
+    "home_empty_bg_field": "EmptyGoalHbg.Source",
+    "away_empty_field": "EmptyGoalA.Text",
+    "away_empty_bg_field": "EmptyGoalAbg.Source",
+    "penalties": {
+      "H1": {
+        "time_field": "HomeP1time.Text",
+        "number_field": "HomeP1nr.Text",
+        "time_bg_field": "HomeP1bg.Source",
+        "number_bg_field": "HomeP1bgnr.Source"
+      },
+      "H2": {
+        "time_field": "HomeP2time.Text",
+        "number_field": "HomeP2nr.Text",
+        "time_bg_field": "HomeP2bg.Source",
+        "number_bg_field": "HomeP2bgnr.Source"
+      },
+      "A1": {
+        "time_field": "AwayP1time.Text",
+        "number_field": "AwayP1nr.Text",
+        "time_bg_field": "AwayP1bg.Source",
+        "number_bg_field": "AwayP1bgnr.Source"
+      },
+      "A2": {
+        "time_field": "AwayP2time.Text",
+        "number_field": "AwayP2nr.Text",
+        "time_bg_field": "AwayP2bg.Source",
+        "number_bg_field": "AwayP2bgnr.Source"
+      }
+    }
+  },
+  "periods": {
+    "P1_duration": "20:00",
+    "P2_duration": "20:00",
+    "P3_duration": "20:00",
+    "OT_duration": "05:00"
+  },
+  "goal_graphic": {
+    "input": "MÅÅL",
+    "overlay_channel": 2,
+    "duration_ms": 5000
+  },
+  "after_goal_graphic": {
+    "input": "NAMNSKYLT MED Nr",
+    "overlay_channel": 2,
+    "duration_ms": 4000,
+    "pause_before_ms": 2000,
+    "name_field": "Namn.Text",
+    "number_field": "ShirtNR.Text",
+    "team_field": "NONE",
+    "logo_field": "Logo.Source"
+  },
+  "lineup": {
+    "home_input": "LINEUP HEMMA",
+    "away_input": "LINEUP BORTA"
+  },
+  "polling": {
+    "interval_ms": 200
+  },
+  "nameplate": {
+    "player_input": "NAMNSKYLT MED Nr",
+    "staff_input": "NAMNSKYLT TRÄNARE",
+    "overlay_channel": 2,
+    "name_field": "Namn.Text",
+    "number_field": "ShirtNR.Text",
+    "team_field": "NONE",
+    "logo_field": "Logo.Source",
+    "staff_name_field": "Namn.Text",
+    "staff_role_field": "ShirtNR.Text",
+    "staff_team_field": "NONE",
+    "staff_logo_field": "Logo.Source"
+  },
+  "api_base_url": "https://vmix-new.hockeyettan.se/api",
+  "swehockey_base_url": "https://stats.swehockey.se",
+  "logo_pregame_folder": "C:\\H1_Grafikpaket\\LOGO Pregame\\",
+  "logo_teams_folder": "C:\\H1_Grafikpaket\\LOGO Teams\\",
+  "resources_folder": "C:\\H1_Grafikpaket\\TITLES\\RESOURCES\\",
+  "export_folder": "C:\\vMix\\",
+  "import_folder": "C:\\Data\\",
+  "scoreboard_nere": {
+    "input": "SCOREBOARD NERE",
+    "overlay_channel": 1,
+    "home_name_field": "HomeName.Text",
+    "away_name_field": "AwayName.Text",
+    "home_logo_big_field": "LogoHome.Source",
+    "away_logo_big_field": "LogoAway.Source",
+    "home_logo_small_field": "HomeLogo.Source",
+    "away_logo_small_field": "AwayLogo.Source"
+  }
+}
